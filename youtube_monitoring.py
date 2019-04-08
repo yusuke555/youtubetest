@@ -22,7 +22,7 @@ inifile.read('./config.ini', 'UTF-8')
 
 #APIキー
 DEVELOPER_KEY = inifile.get('DEVELOPER_KEY', 'key')
-#APIサービス名
+#APIサービス名aa
 YOUTUBE_API_SERVICE_NAME = inifile.get('YOUTUBE_API_SERVICE_NAME', 'service')
 #APIバージョン
 YOUTUBE_API_VERSION = inifile.get('YOUTUBE_API_VERSION', 'version')
